@@ -16,14 +16,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
 
-      - uses: android-actions/setup-android@v3
+      - name: Android SDK (runner preinstalled)
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          SDKM=$(ls -d $ANDROID_HOME/cmdline-tools/*/bin | head -1)/sdkmanager
+          yes | $SDKM --licenses > /dev/null || true
+          $SDKM "platforms;android-34" "build-tools;34.0.0" > /dev/null
+          echo "sdk.dir=$ANDROID_HOME" > local.properties
 
       - uses: gradle/actions/setup-gradle@v4
         with:
@@ -33,7 +39,13 @@ jobs:
         run: python3 tools/build_web.py
 
       - name: Build APK
-        run: gradle :app:assembleRelease --no-daemon --stacktrace
+        run: |
+          set -o pipefail
+          gradle :app:assembleRelease --no-daemon --console=plain 2>&1 | tee build.log || {
+            msg=$(grep -E "error:|ERROR|What went wrong|FAILURE|\.java:[0-9]+|Could not|>" build.log | head -40 | sed ':a;N;$!ba;s/%/%25/g;s/\r/%0D/g;s/\n/%0A/g')
+            echo "::error title=gradle build failed::$msg"
+            exit 1
+          }
 
       - name: Collect APK
         run: |
