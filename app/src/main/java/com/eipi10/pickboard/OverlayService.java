@@ -14,6 +14,8 @@ import android.graphics.Color;
 import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.Typeface;
+import android.hardware.display.DisplayManager;
+import android.view.Display;
 import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
@@ -68,10 +70,15 @@ public class OverlayService extends Service {
             stopSelf();
             return START_NOT_STICKY;
         }
-        startInForeground();
-        if (root == null) createOverlay();
-        running = true;
-        return START_STICKY;
+        try {
+            startInForeground();
+            if (root == null) createOverlay();
+            running = true;
+        } catch (Exception e) {
+            // 권한이 꺼졌거나 백그라운드 시작이 막힌 경우: 조용히 종료
+            stopSelf();
+        }
+        return START_NOT_STICKY;
     }
 
     // ---------- foreground notification ----------
@@ -103,14 +110,20 @@ public class OverlayService extends Service {
 
     // ---------- overlay ----------
     private void createOverlay() {
-        wm = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
+        Context ctx = this;
+        if (Build.VERSION.SDK_INT >= 30) {
+            // 안드로이드 11+: 오버레이 전용 윈도 컨텍스트로 만들어야 화면 크기·회전이 정확함
+            Display d = getSystemService(DisplayManager.class).getDisplay(Display.DEFAULT_DISPLAY);
+            ctx = createDisplayContext(d).createWindowContext(WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY, null);
+        }
+        wm = (WindowManager) ctx.getSystemService(Context.WINDOW_SERVICE);
         prefs = getSharedPreferences("overlay", MODE_PRIVATE);
 
-        root = new LinearLayout(this);
+        root = new LinearLayout(ctx);
         root.setOrientation(LinearLayout.VERTICAL);
         root.setBackgroundColor(0xFF121019);
 
-        handle = new TextView(this);
+        handle = new TextView(ctx);
         handle.setText("⋯");
         handle.setTextColor(0xFFA59CBB);
         handle.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
@@ -120,7 +133,7 @@ public class OverlayService extends Service {
         handle.setContentDescription("픽보드 이동 손잡이");
         root.addView(handle, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, dp(HANDLE_DP)));
 
-        web = new WebView(this);
+        web = new WebView(ctx);
         web.setBackgroundColor(0xFF121019);
         WebSettings s = web.getSettings();
         s.setJavaScriptEnabled(true);
@@ -197,7 +210,7 @@ public class OverlayService extends Service {
 
     private Rect screen() {
         if (Build.VERSION.SDK_INT >= 30) {
-            return wm.getCurrentWindowMetrics().getBounds();
+            return wm.getMaximumWindowMetrics().getBounds();
         }
         DisplayMetrics m = new DisplayMetrics();
         wm.getDefaultDisplay().getRealMetrics(m);
