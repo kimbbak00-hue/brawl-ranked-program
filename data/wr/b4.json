@@ -1,0 +1,1068 @@
+[
+ {
+  "en": "Rico",
+  "slug": "rico",
+  "tier": "D",
+  "rank": 105,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    52.1
+   ],
+   [
+    "Colt",
+    51.2
+   ],
+   [
+    "Edgar",
+    50.8
+   ],
+   [
+    "Crow",
+    49.1
+   ],
+   [
+    "Bull",
+    47.4
+   ],
+   [
+    "Dynamike",
+    47.1
+   ]
+  ],
+  "weak": [
+   [
+    "Bolt",
+    21.9
+   ],
+   [
+    "Jae-Yong",
+    23.8
+   ],
+   [
+    "Wendy",
+    25.3
+   ],
+   [
+    "Draco",
+    27.5
+   ],
+   [
+    "Ziggy",
+    27.5
+   ],
+   [
+    "Glowy",
+    29.5
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "El Primo",
+  "slug": "el-primo",
+  "tier": "D",
+  "rank": 99,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    57.2
+   ],
+   [
+    "Edgar",
+    56.9
+   ],
+   [
+    "Colt",
+    55.9
+   ],
+   [
+    "Rico",
+    55.6
+   ],
+   [
+    "Dynamike",
+    54.5
+   ],
+   [
+    "Frank",
+    52.4
+   ]
+  ],
+  "weak": [
+   [
+    "Bolt",
+    20.8
+   ],
+   [
+    "Wendy",
+    24.9
+   ],
+   [
+    "Jae-Yong",
+    24.9
+   ],
+   [
+    "Nori",
+    27.6
+   ],
+   [
+    "Starr Nova",
+    28.8
+   ],
+   [
+    "Glowy",
+    29
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Pam",
+  "slug": "pam",
+  "tier": "C",
+  "rank": 75,
+  "of": 105,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    63
+   ],
+   [
+    "Rico",
+    61.7
+   ],
+   [
+    "Colt",
+    60.8
+   ],
+   [
+    "Dynamike",
+    58.3
+   ],
+   [
+    "El Primo",
+    57.6
+   ],
+   [
+    "Nita",
+    56.9
+   ]
+  ],
+  "weak": [
+   [
+    "Bolt",
+    20.7
+   ],
+   [
+    "Damian",
+    24.2
+   ],
+   [
+    "Jae-Yong",
+    24.2
+   ],
+   [
+    "Starr Nova",
+    27.6
+   ],
+   [
+    "Draco",
+    28.6
+   ],
+   [
+    "Colonel Ruffs",
+    30.5
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Tick",
+  "slug": "tick",
+  "tier": "B",
+  "rank": 65,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    64.6
+   ],
+   [
+    "Rico",
+    59.5
+   ],
+   [
+    "Barley",
+    59.4
+   ],
+   [
+    "Colt",
+    58.7
+   ],
+   [
+    "Dynamike",
+    58.5
+   ],
+   [
+    "Crow",
+    58.2
+   ]
+  ],
+  "weak": [
+   [
+    "Bolt",
+    33.3
+   ],
+   [
+    "Wendy",
+    36.3
+   ],
+   [
+    "Starr Nova",
+    41.3
+   ],
+   [
+    "Damian",
+    41.4
+   ],
+   [
+    "Ash",
+    42.4
+   ],
+   [
+    "Shade",
+    43.5
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Sandy",
+  "slug": "sandy",
+  "tier": "B",
+  "rank": 47,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    72.6
+   ],
+   [
+    "Nita",
+    64.6
+   ],
+   [
+    "Colt",
+    63.8
+   ],
+   [
+    "Rico",
+    63.5
+   ],
+   [
+    "Barley",
+    62.7
+   ],
+   [
+    "El Primo",
+    61.7
+   ]
+  ],
+  "weak": [
+   [
+    "Wendy",
+    29.6
+   ],
+   [
+    "Bolt",
+    35.8
+   ],
+   [
+    "Nori",
+    36.6
+   ],
+   [
+    "Starr Nova",
+    37.3
+   ],
+   [
+    "Damian",
+    38
+   ],
+   [
+    "Mico",
+    38.4
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Gale",
+  "slug": "gale",
+  "tier": "B",
+  "rank": 58,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    66.5
+   ],
+   [
+    "Colt",
+    61.4
+   ],
+   [
+    "Rico",
+    58.7
+   ],
+   [
+    "El Primo",
+    58.7
+   ],
+   [
+    "Edgar",
+    58.2
+   ],
+   [
+    "Frank",
+    57.6
+   ]
+  ],
+  "weak": [
+   [
+    "Wendy",
+    32.8
+   ],
+   [
+    "Bolt",
+    37.7
+   ],
+   [
+    "Sirius",
+    38.3
+   ],
+   [
+    "Chuck",
+    38.7
+   ],
+   [
+    "Mico",
+    40.1
+   ],
+   [
+    "Damian",
+    40.6
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Lou",
+  "slug": "lou",
+  "tier": "B",
+  "rank": 41,
+  "of": 105,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    73.1
+   ],
+   [
+    "El Primo",
+    67.5
+   ],
+   [
+    "Rico",
+    66.6
+   ],
+   [
+    "Nita",
+    65.5
+   ],
+   [
+    "Colt",
+    65
+   ],
+   [
+    "Rosa",
+    64
+   ]
+  ],
+  "weak": [
+   [
+    "Bolt",
+    36.1
+   ],
+   [
+    "Starr Nova",
+    37.1
+   ],
+   [
+    "Sirius",
+    38.2
+   ],
+   [
+    "Glowy",
+    38.3
+   ],
+   [
+    "Bo",
+    38.8
+   ],
+   [
+    "Najia",
+    38.8
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Squeak",
+  "slug": "squeak",
+  "tier": "C",
+  "rank": 72,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    67.8
+   ],
+   [
+    "Colt",
+    59.1
+   ],
+   [
+    "Rico",
+    59.1
+   ],
+   [
+    "Nita",
+    58.4
+   ],
+   [
+    "Barley",
+    57.6
+   ],
+   [
+    "Pam",
+    57.2
+   ]
+  ],
+  "weak": [
+   [
+    "Bolt",
+    31.7
+   ],
+   [
+    "Wendy",
+    31.7
+   ],
+   [
+    "Damian",
+    37.4
+   ],
+   [
+    "Mico",
+    37.6
+   ],
+   [
+    "Nori",
+    38.7
+   ],
+   [
+    "Starr Nova",
+    39
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Lola",
+  "slug": "lola",
+  "tier": "B",
+  "rank": 34,
+  "of": 106,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "El Primo",
+    72.2
+   ],
+   [
+    "Shelly",
+    70.8
+   ],
+   [
+    "Rico",
+    66.9
+   ],
+   [
+    "Jacky",
+    65.9
+   ],
+   [
+    "Nita",
+    65.1
+   ],
+   [
+    "Ollie",
+    64.2
+   ]
+  ],
+  "weak": [
+   [
+    "Bolt",
+    29.8
+   ],
+   [
+    "Starr Nova",
+    33.6
+   ],
+   [
+    "Damian",
+    34.7
+   ],
+   [
+    "Nori",
+    35.7
+   ],
+   [
+    "Alli",
+    39.3
+   ],
+   [
+    "Ziggy",
+    39.3
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Sam",
+  "slug": "sam",
+  "tier": "A",
+  "rank": 17,
+  "of": 105,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    72.3
+   ],
+   [
+    "Rico",
+    70.8
+   ],
+   [
+    "Dynamike",
+    69.6
+   ],
+   [
+    "El Primo",
+    69.3
+   ],
+   [
+    "Colt",
+    66.8
+   ],
+   [
+    "Nita",
+    66.7
+   ]
+  ],
+  "weak": [
+   [
+    "Bolt",
+    28
+   ],
+   [
+    "Damian",
+    32.8
+   ],
+   [
+    "Starr Nova",
+    34.9
+   ],
+   [
+    "Nori",
+    38.2
+   ],
+   [
+    "Finx",
+    39.2
+   ],
+   [
+    "Mina",
+    39.6
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "R-T",
+  "slug": "r-t",
+  "tier": "S",
+  "rank": 12,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    78
+   ],
+   [
+    "El Primo",
+    70.9
+   ],
+   [
+    "Nita",
+    70.8
+   ],
+   [
+    "Colt",
+    69.1
+   ],
+   [
+    "Rico",
+    69.1
+   ],
+   [
+    "Edgar",
+    68.5
+   ]
+  ],
+  "weak": [
+   [
+    "Wendy",
+    36.7
+   ],
+   [
+    "Bolt",
+    39.3
+   ],
+   [
+    "Finx",
+    39.8
+   ],
+   [
+    "Sirius",
+    40.5
+   ],
+   [
+    "Colonel Ruffs",
+    42.4
+   ],
+   [
+    "Chester",
+    42.9
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Pearl",
+  "slug": "pearl",
+  "tier": "B",
+  "rank": 43,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    69.9
+   ],
+   [
+    "Colt",
+    62.8
+   ],
+   [
+    "Nita",
+    60.9
+   ],
+   [
+    "Rico",
+    60.2
+   ],
+   [
+    "Edgar",
+    59.7
+   ],
+   [
+    "Barley",
+    59.4
+   ]
+  ],
+  "weak": [
+   [
+    "Wendy",
+    36.3
+   ],
+   [
+    "Bolt",
+    38
+   ],
+   [
+    "Sirius",
+    39.3
+   ],
+   [
+    "Damian",
+    41.4
+   ],
+   [
+    "Amber",
+    41.9
+   ],
+   [
+    "Ziggy",
+    42.2
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Melodie",
+  "slug": "melodie",
+  "tier": "B",
+  "rank": 54,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    71.2
+   ],
+   [
+    "Rico",
+    62.3
+   ],
+   [
+    "Dynamike",
+    61.1
+   ],
+   [
+    "Nita",
+    60.8
+   ],
+   [
+    "Barley",
+    60.7
+   ],
+   [
+    "El Primo",
+    60.7
+   ]
+  ],
+  "weak": [
+   [
+    "Wendy",
+    31.6
+   ],
+   [
+    "Damian",
+    37.1
+   ],
+   [
+    "Nori",
+    37.8
+   ],
+   [
+    "Bolt",
+    38.7
+   ],
+   [
+    "Starr Nova",
+    39
+   ],
+   [
+    "Amber",
+    40.7
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Moe",
+  "slug": "moe",
+  "tier": "A",
+  "rank": 14,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    77.3
+   ],
+   [
+    "Nita",
+    73.8
+   ],
+   [
+    "Colt",
+    69.4
+   ],
+   [
+    "Rico",
+    67.7
+   ],
+   [
+    "Edgar",
+    67.7
+   ],
+   [
+    "Barley",
+    67.6
+   ]
+  ],
+  "weak": [
+   [
+    "Wendy",
+    29.9
+   ],
+   [
+    "Nori",
+    40.1
+   ],
+   [
+    "Damian",
+    40.4
+   ],
+   [
+    "Sirius",
+    41.1
+   ],
+   [
+    "Bolt",
+    41.2
+   ],
+   [
+    "Starr Nova",
+    41.5
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Lumi",
+  "slug": "lumi",
+  "tier": "A",
+  "rank": 24,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    78
+   ],
+   [
+    "Nita",
+    71.5
+   ],
+   [
+    "El Primo",
+    67.6
+   ],
+   [
+    "Colt",
+    66.5
+   ],
+   [
+    "Darryl",
+    66.2
+   ],
+   [
+    "Rosa",
+    64.9
+   ]
+  ],
+  "weak": [
+   [
+    "Wendy",
+    34.4
+   ],
+   [
+    "Damian",
+    43.7
+   ],
+   [
+    "Nori",
+    44.2
+   ],
+   [
+    "Starr Nova",
+    44.5
+   ],
+   [
+    "Bo",
+    44.8
+   ],
+   [
+    "Gus",
+    44.8
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Mina",
+  "slug": "mina",
+  "tier": "A",
+  "rank": 26,
+  "of": 107,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    75
+   ],
+   [
+    "Nita",
+    69.5
+   ],
+   [
+    "Dynamike",
+    67.1
+   ],
+   [
+    "Barley",
+    66.4
+   ],
+   [
+    "Colt",
+    66
+   ],
+   [
+    "Pam",
+    65.5
+   ]
+  ],
+  "weak": [
+   [
+    "Wendy",
+    32.5
+   ],
+   [
+    "Damian",
+    38.8
+   ],
+   [
+    "Bolt",
+    41.4
+   ],
+   [
+    "Starr Nova",
+    42.4
+   ],
+   [
+    "Shade",
+    44.1
+   ],
+   [
+    "Amber",
+    45.4
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Najia",
+  "slug": "najia",
+  "tier": "A",
+  "rank": 24,
+  "of": 106,
+  "wr": null,
+  "pick": null,
+  "strong": [
+   [
+    "Shelly",
+    75.2
+   ],
+   [
+    "El Primo",
+    74.4
+   ],
+   [
+    "Nita",
+    70.4
+   ],
+   [
+    "Dynamike",
+    67.6
+   ],
+   [
+    "Rico",
+    67
+   ],
+   [
+    "Barley",
+    66.9
+   ]
+  ],
+  "weak": [
+   [
+    "Wendy",
+    30.7
+   ],
+   [
+    "Bolt",
+    33.7
+   ],
+   [
+    "Damian",
+    40.1
+   ],
+   [
+    "Starr Nova",
+    44.2
+   ],
+   [
+    "Mico",
+    45.1
+   ],
+   [
+    "Kit",
+    45.5
+   ]
+  ],
+  "ok": true
+ },
+ {
+  "en": "Cosmo",
+  "slug": "cosmo",
+  "tier": null,
+  "rank": null,
+  "of": null,
+  "wr": null,
+  "pick": null,
+  "strong": [],
+  "weak": [],
+  "ok": false
+ }
+]

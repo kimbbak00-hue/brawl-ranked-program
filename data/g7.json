@@ -1,0 +1,674 @@
+[
+ {
+  "en": "Draco",
+  "ko": "드라코",
+  "rarity": "전설",
+  "class": "탱커",
+  "hp": 11200,
+  "speed": 720,
+  "range": 4,
+  "atk": "관통 빔, 최대 사거리서 2배 피해",
+  "sup": "드래곤 탑승, 화염 부채꼴·피해 감소",
+  "gad": [
+   [
+    "어퍼컷",
+    "다음 공격이 적을 공중에 띄움"
+   ],
+   [
+    "최후의 몸부림",
+    "잠시 체력 1 아래로 안 떨어짐"
+   ]
+  ],
+  "sp": [
+   [
+    "약점 공략",
+    "공격이 표식을 남겨 추가 피해"
+   ],
+   [
+    "슈레딩",
+    "슈퍼 사용 시 체력 회복"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "tank",
+   "pierce",
+   "cc",
+   "short"
+  ],
+  "strong": [
+   "Edgar",
+   "Fang",
+   "Piper"
+  ],
+  "weak": [
+   "Colt",
+   "Belle",
+   "Dynamike"
+  ],
+  "lane": "mid",
+  "note": "근접 약함, 수풀 먼저 확인 후 진입",
+  "src": "https://brawlify.com/brawlers/detail/Draco ; https://brawlify.com/ko/brawlers/detail/Draco ; https://brawlstars.fandom.com/wiki/Draco ; https://namu.wiki/w/드라코(브롤스타즈) ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Lily",
+  "ko": "릴리",
+  "rarity": "신화",
+  "class": "암살자",
+  "hp": 8400,
+  "speed": 820,
+  "range": 2,
+  "atk": "전방 근접 가시 찌르기",
+  "sup": "씨앗 투척, 적중 시 적 뒤로 순간이동",
+  "gad": [
+   [
+    "증발",
+    "그림자 영역 진입, 잠시 은신"
+   ],
+   [
+    "분갈이",
+    "다음 슈퍼를 던져 착지점으로 이동"
+   ]
+  ],
+  "sp": [
+   [
+    "따끔한 일격",
+    "순간이동 후 첫 공격 추가 피해"
+   ],
+   [
+    "경계 태세",
+    "슈퍼 충전 반경 내 적 있으면 가속"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "assassin",
+   "mobility",
+   "invis",
+   "burst",
+   "short"
+  ],
+  "strong": [
+   "Piper",
+   "Brock",
+   "Bea"
+  ],
+  "weak": [
+   "Leon",
+   "Cordelius",
+   "Shelly"
+  ],
+  "lane": "side",
+  "note": "슈퍼는 탄창 가득 채운 뒤 침투",
+  "src": "https://brawlify.com/brawlers/detail/Lily ; https://brawlify.com/ko/brawlers/detail/Lily ; https://brawlstars.fandom.com/wiki/Lily ; https://www.noff.gg/brawl-stars/brawler/lily ; https://namu.wiki/w/릴리(브롤스타즈) ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Berry",
+  "ko": "베리",
+  "rarity": "영웅",
+  "class": "서포터",
+  "hp": 5200,
+  "speed": 720,
+  "range": 6.33,
+  "atk": "아이스크림 투척, 적 피해·아군 치유",
+  "sup": "돌진하며 아이스크림 살포(피해·치유)",
+  "gad": [
+   [
+    "위대한 우정",
+    "적을 밀쳐내고 주변 아군 치유"
+   ],
+   [
+    "건강한 첨가물",
+    "다음 공격 장판이 더 오래 지속"
+   ]
+  ],
+  "sp": [
+   [
+    "끈적한 바닥",
+    "내 아이스크림 위에서 재장전 빠름"
+   ],
+   [
+    "엉망진창",
+    "빈 지역 첫 타격 추가 피해"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "support",
+   "heal",
+   "control",
+   "area",
+   "splash",
+   "mid"
+  ],
+  "strong": [
+   "Frank",
+   "El Primo",
+   "Darryl"
+  ],
+  "weak": [
+   "Mortis",
+   "Edgar",
+   "Fang"
+  ],
+  "lane": "mid",
+  "note": "장판을 겹치지 말고 넓게 깔기",
+  "src": "https://brawlify.com/brawlers/detail/Berry ; https://brawlify.com/ko/brawlers/detail/Berry ; https://brawlstars.fandom.com/wiki/Berry ; https://namu.wiki/w/베리(브롤스타즈) ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Clancy",
+  "ko": "클랜시",
+  "rarity": "신화",
+  "class": "대미지 딜러",
+  "hp": 7600,
+  "speed": 720,
+  "range": 7.67,
+  "atk": "토큰으로 3단계 강화되는 물대포",
+  "sup": "단계별 강화되는 부채꼴 물벼락",
+  "gad": [
+   [
+    "황금빛 사격",
+    "잠시 토큰 획득량 2배"
+   ],
+   [
+    "작전상 후퇴",
+    "대시하며 탄약 일부 장전"
+   ]
+  ],
+  "sp": [
+   [
+    "정찰",
+    "시작부터 토큰 보유"
+   ],
+   [
+    "활력 증강",
+    "적 처치 시 탄약 전부 재장전"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "dps",
+   "mid",
+   "long",
+   "burst"
+  ],
+  "strong": [
+   "Bull",
+   "El Primo",
+   "Frank"
+  ],
+  "weak": [
+   "Mortis",
+   "Fang",
+   "Lily"
+  ],
+  "lane": "any",
+  "note": "초반 토큰 쌓기, 3단계부터 캐리",
+  "src": "https://brawlify.com/brawlers/detail/Clancy ; https://brawlify.com/ko/brawlers/detail/Clancy ; https://brawlstars.fandom.com/wiki/Clancy ; https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-april-2026/ ; https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-february-2026/ ; https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-august-2026/ ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Moe",
+  "ko": "모",
+  "rarity": "신화",
+  "class": "대미지 딜러",
+  "hp": 7200,
+  "speed": 770,
+  "range": 5,
+  "atk": "튕겨서 갈라지는 돌 던지기",
+  "sup": "드릴 머신 이동 후 땅속 이동·공격",
+  "gad": [
+   [
+    "보물찾기",
+    "슈퍼 충전 속도 일시 증가"
+   ],
+   [
+    "치열한 경주",
+    "드릴로 돌진, 벽 파괴·밀치기"
+   ]
+  ],
+  "sp": [
+   [
+    "땅수제비",
+    "공격이 한 번 더 튕김"
+   ],
+   [
+    "과속 딱지",
+    "드릴 이동 속도 증가"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "dps",
+   "mid",
+   "mobility",
+   "wallbreak",
+   "splash"
+  ],
+  "strong": [
+   "Piper",
+   "Brock",
+   "Belle"
+  ],
+  "weak": [
+   "Mortis",
+   "Bull",
+   "Edgar"
+  ],
+  "lane": "any",
+  "note": "드릴로 저격수 추격, 탄약 남기고 탈출",
+  "src": "https://brawlify.com/brawlers/detail/Moe ; https://brawlify.com/ko/brawlers/detail/Moe ; https://brawlstars.fandom.com/wiki/Moe ; https://namu.wiki/w/모(브롤스타즈) ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Kenji",
+  "ko": "켄지",
+  "rarity": "전설",
+  "class": "암살자",
+  "hp": 8000,
+  "speed": 820,
+  "range": 2.67,
+  "atk": "대시와 부채꼴 베기 번갈아 공격",
+  "sup": "무적 상태로 범위 연속 참격, 회복",
+  "gad": [
+   [
+    "전진 베기 수련",
+    "잠시 모든 공격이 대시 공격"
+   ],
+   [
+    "치유의 김초밥",
+    "최근 받은 피해 일부 즉시 회복"
+   ]
+  ],
+  "sp": [
+   [
+    "회칼 연마",
+    "슈퍼 베기 길이 30% 증가"
+   ],
+   [
+    "절치부심",
+    "5초 무피해 시 다음 피격 60% 감소"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "assassin",
+   "mobility",
+   "burst",
+   "short"
+  ],
+  "strong": [
+   "Piper",
+   "Brock",
+   "Mr. P"
+  ],
+  "weak": [
+   "Colt",
+   "Rico",
+   "Spike"
+  ],
+  "lane": "side",
+  "note": "슈퍼로 광역기·스턴 회피, 대시로 탈출",
+  "src": "https://brawlify.com/brawlers/detail/Kenji ; https://brawlify.com/ko/brawlers/detail/Kenji ; https://brawlstars.fandom.com/wiki/Kenji ; https://namu.wiki/w/켄지(브롤스타즈) ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Shade",
+  "ko": "셰이드",
+  "rarity": "영웅",
+  "class": "암살자",
+  "hp": 7400,
+  "speed": 820,
+  "range": 3.67,
+  "atk": "벽 너머까지 닿는 부채꼴 포옹",
+  "sup": "무형 상태: 벽 통과, 이동 속도 증가",
+  "gad": [
+   [
+    "팔척귀신",
+    "다음 공격 사거리 증가"
+   ],
+   [
+    "깜짝 놀랐지",
+    "짧게 도약, 착지 시 적 공포"
+   ]
+  ],
+  "sp": [
+   [
+    "오싹한 스피드광",
+    "중심 적중 시 이동 속도 증가"
+   ],
+   [
+    "튼튼한 후드티",
+    "무형 상태에서 받는 피해 감소"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "assassin",
+   "mobility",
+   "burst",
+   "short",
+   "cc"
+  ],
+  "strong": [
+   "Piper",
+   "Brock",
+   "Belle"
+  ],
+  "weak": [
+   "Shelly",
+   "Colt",
+   "Rico"
+  ],
+  "lane": "side",
+  "note": "공격 중심부로 맞혀야 대미지 극대",
+  "src": "https://brawlify.com/brawlers/detail/Shade ; https://brawlify.com/ko/brawlers/detail/Shade ; https://brawlstars.fandom.com/wiki/Shade ; https://supercell.com/en/games/brawlstars/ko/blog/release-notes/2026년-8월-릴리스-노트 ; https://namu.wiki/w/셰이드(브롤스타즈) ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Juju",
+  "ko": "주주",
+  "rarity": "신화",
+  "class": "투척수",
+  "hp": 7000,
+  "speed": 720,
+  "range": 6.33,
+  "atk": "서 있는 지형별 강화(땅/수풀/물)",
+  "sup": "그리그리 소환, 적에게 바늘 발사",
+  "gad": [
+   [
+    "주술의 힘",
+    "다음 공격에 세 원소 효과 모두 적용"
+   ],
+   [
+    "원소술사",
+    "지형별 버프(감소/은신/가속)"
+   ]
+  ],
+  "sp": [
+   [
+    "그리그리 실드",
+    "그리그리가 보호막과 함께 소환"
+   ],
+   [
+    "마비의 바늘",
+    "그리그리 공격이 적을 둔화"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "thrower",
+   "spawn",
+   "control",
+   "mid",
+   "invis"
+  ],
+  "strong": [
+   "El Primo",
+   "Frank",
+   "Rosa"
+  ],
+  "weak": [
+   "Mortis",
+   "Fang",
+   "Lily"
+  ],
+  "lane": "mid",
+  "note": "수풀에서 사거리 확보, 물은 퇴로",
+  "src": "https://brawlify.com/brawlers/detail/Juju ; https://brawlify.com/ko/brawlers/detail/Juju ; https://brawlstars.fandom.com/wiki/Juju ; https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-august-2026/ ; https://namu.wiki/w/주주(브롤스타즈) ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Meeple",
+  "ko": "미플",
+  "rarity": "영웅",
+  "class": "컨트롤러",
+  "hp": 6600,
+  "speed": 720,
+  "range": 7.67,
+  "atk": "적을 살짝 추적하는 강한 투사체",
+  "sup": "범위 내 아군 투사체가 장애물 통과",
+  "gad": [
+   [
+    "미플의 저택",
+    "다음 공격이 주사위 탑 생성"
+   ],
+   [
+    "분노의 종료",
+    "주변 적 기절·밀치기"
+   ]
+  ],
+  "sp": [
+   [
+    "통행금지",
+    "장애물 통과 샷 추가 피해"
+   ],
+   [
+    "꼼수",
+    "슈퍼 범위 내 아군 재장전 증가"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "control",
+   "long",
+   "area",
+   "cc"
+  ],
+  "strong": [
+   "Bull",
+   "El Primo",
+   "Darryl"
+  ],
+  "weak": [
+   "Mortis",
+   "Edgar",
+   "Lily"
+  ],
+  "lane": "mid",
+  "note": "슈퍼로 벽 너머 아군 화력 지원",
+  "src": "https://brawlify.com/brawlers/detail/Meeple ; https://brawlify.com/ko/brawlers/detail/Meeple ; https://namu.wiki/w/미플(브롤스타즈) ; https://supercell.com/en/games/brawlstars/blog/game-updates/release-notes-october-2025/ ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Ollie",
+  "ko": "올리",
+  "rarity": "신화",
+  "class": "탱커",
+  "hp": 10800,
+  "speed": 770,
+  "range": 6.33,
+  "atk": "적을 관통하는 호버보드 음파",
+  "sup": "돌진 후 최면 음파, 적이 끌려옴",
+  "gad": [
+   [
+    "컨트롤 킥",
+    "착지 지점 적을 최면"
+   ],
+   [
+    "시선집중",
+    "다음 공격 적중 적을 최면"
+   ]
+  ],
+  "sp": [
+   [
+    "킥 앤 푸시",
+    "벽 근처에서 이동 속도 증가"
+   ],
+   [
+    "레니게이드",
+    "슈퍼 돌진 후 감소하는 보호막"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "tank",
+   "pierce",
+   "cc",
+   "mobility",
+   "mid"
+  ],
+  "strong": [
+   "Piper",
+   "Brock",
+   "Tick"
+  ],
+  "weak": [
+   "Belle",
+   "Colt",
+   "Rico"
+  ],
+  "lane": "mid",
+  "note": "최면으로 적을 팀 쪽으로 끌어오기",
+  "src": "https://brawlify.com/brawlers/detail/Ollie ; https://brawlify.com/ko/brawlers/detail/Ollie ; https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-august-2026/ ; https://namu.wiki/w/올리(브롤스타즈) ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Lumi",
+  "ko": "루미",
+  "rarity": "신화",
+  "class": "대미지 딜러",
+  "hp": 7000,
+  "speed": 720,
+  "range": 8,
+  "atk": "모닝스타 2개 던지고 3번째에 회수",
+  "sup": "땅을 3번 내리쳐 폭발, 마지막에 속박",
+  "gad": [
+   [
+    "도화선",
+    "땅의 모닝스타에 불을 붙임"
+   ],
+   [
+    "발이 꽁꽁꽁",
+    "모닝스타 주변 미끄러운 얼음"
+   ]
+  ],
+  "sp": [
+   [
+    "42% 연소",
+    "슈퍼 폭발 후 화염 지속 피해"
+   ],
+   [
+    "하프 타임",
+    "회수된 모닝스타 적중 적 둔화"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "dps",
+   "long",
+   "area",
+   "splash",
+   "cc"
+  ],
+  "strong": [
+   "Shelly",
+   "Bull",
+   "El Primo"
+  ],
+  "weak": [
+   "Mortis",
+   "Edgar",
+   "Fang"
+  ],
+  "lane": "any",
+  "note": "모닝스타 회수 경로까지 계산해 투척",
+  "src": "https://brawlify.com/brawlers/detail/Lumi ; https://brawlify.com/ko/brawlers/detail/Lumi ; https://brawlstars.fandom.com/wiki/Lumi ; https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-april-2026/ ; https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-august-2026/ ; https://namu.wiki/w/루미(브롤스타즈) ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Finx",
+  "ko": "핑크스",
+  "rarity": "신화",
+  "class": "컨트롤러",
+  "hp": 7400,
+  "speed": 770,
+  "range": 8.33,
+  "atk": "3갈래 장거리 투사체(가운데 강함)",
+  "sup": "적 투사체 둔화, 아군 투사체 가속",
+  "gad": [
+   [
+    "과거로의 귀환",
+    "잠시 전 위치·탄약으로 복귀"
+   ],
+   [
+    "탈출 불가",
+    "다음 공격이 적을 빙결(행동 불가)"
+   ]
+  ],
+  "sp": [
+   [
+    "그대로 멈춰라",
+    "적중 적의 재장전 속도 감소"
+   ],
+   [
+    "상부상조",
+    "가속 투사체 피해가 슈퍼 지속 연장"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "control",
+   "long",
+   "cc",
+   "dps"
+  ],
+  "strong": [
+   "Bull",
+   "El Primo",
+   "Darryl"
+  ],
+  "weak": [
+   "Mortis",
+   "Edgar",
+   "Fang"
+  ],
+  "lane": "any",
+  "note": "슈퍼 안에서 아군 투사체와 함께 압박",
+  "src": "https://brawlify.com/brawlers/detail/Finx ; https://brawlify.com/ko/brawlers/detail/Finx ; https://namu.wiki/w/브롤스타즈/브롤러 ; https://supercell.com/en/games/brawlstars/blog/game-updates/release-notes-october-2025/ ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ },
+ {
+  "en": "Jae-Yong",
+  "ko": "재용",
+  "rarity": "신화",
+  "class": "서포터",
+  "hp": 7400,
+  "speed": 770,
+  "range": 8.33,
+  "atk": "모드별 관통 샷(일: 가속, 파티: 치유)",
+  "sup": "일/파티 모드 전환, 아군 가속 또는 치유",
+  "gad": [
+   [
+    "주말 바라기",
+    "주변 적에 피해, 공격 강화"
+   ],
+   [
+    "발라드 타임",
+    "주변 적 둔화, 둔화 흔적 남김"
+   ]
+  ],
+  "sp": [
+   [
+    "떼창",
+    "주변 아군 수만큼 이동 속도 증가"
+   ],
+   [
+    "절대 고음",
+    "관통한 대상마다 피해 증가"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "support",
+   "heal",
+   "pierce",
+   "long",
+   "mobility"
+  ],
+  "strong": [
+   "El Primo",
+   "Bull",
+   "Frank"
+  ],
+  "weak": [
+   "Mortis",
+   "Fang",
+   "Lily"
+  ],
+  "lane": "mid",
+  "note": "전투 땐 파티, 이동·압박 땐 일 모드",
+  "src": "https://brawlify.com/brawlers/detail/Jae-yong ; https://brawlify.com/ko/brawlers/detail/Jae-yong ; https://brawlstars.fandom.com/wiki/Jae-yong ; https://supercell.com/en/games/brawlstars/ko/blog/release-notes/2026년-8월-릴리스-노트 ; https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-february-2026/ ; https://clutchpoints.com/gaming/brawl-stars-all-hypercharge-abilities"
+ }
+]

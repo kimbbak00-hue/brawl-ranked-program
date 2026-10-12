@@ -1,0 +1,674 @@
+[
+ {
+  "en": "Lola",
+  "ko": "롤라",
+  "rarity": "영웅",
+  "class": "대미지 딜러",
+  "hp": 7600,
+  "speed": 720,
+  "range": 9.0,
+  "atk": "6발 부채꼴 투사체, 긴 시전",
+  "sup": "같은 공격을 하는 분신 소환",
+  "gad": [
+   [
+    "Freeze Frame",
+    "분신 4초 정지, 보호막 50%"
+   ],
+   [
+    "Stunt Double",
+    "분신과 위치 교환, 둘 다 회복"
+   ]
+  ],
+  "sp": [
+   [
+    "Improvise",
+    "마지막 탄 공격 피해 +30%"
+   ],
+   [
+    "Sealed With A Kiss",
+    "분신 탄이 아군 회복"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "dps",
+   "burst",
+   "long",
+   "splash"
+  ],
+  "strong": [
+   "Tick",
+   "Barley",
+   "Sprout"
+  ],
+  "weak": [
+   "Jessie",
+   "Colt",
+   "Rico"
+  ],
+  "lane": "mid",
+  "note": "분신을 앞세워 방패·시야 확보",
+  "src": "https://brawlstars.fandom.com/wiki/Lola | https://gamewith.net/brawl-stars/48100 | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000053 | https://mobilematters.gg/brawl-stars/all-hypercharges-listed"
+ },
+ {
+  "en": "Fang",
+  "ko": "팽",
+  "rarity": "신화",
+  "class": "암살자",
+  "hp": 9600,
+  "speed": 770,
+  "range": 2.67,
+  "atk": "단일 킥, 빗나가면 신발 투척",
+  "sup": "돌진 후 최대 4명 연쇄 타격",
+  "gad": [
+   [
+    "Corn-Fu",
+    "팝콘 8개 투척, 알갱이 폭발"
+   ],
+   [
+    "Roundhouse Kick",
+    "회전 발차기, 0.5초 기절"
+   ]
+  ],
+  "sp": [
+   [
+    "Fresh Kicks",
+    "슈퍼로 처치 시 슈퍼 재충전"
+   ],
+   [
+    "Divine Soles",
+    "3초마다 첫 투사체 피해 감소"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "assassin",
+   "burst",
+   "mobility",
+   "short",
+   "cc"
+  ],
+  "strong": [
+   "Barley",
+   "Tick",
+   "Mico",
+   "Mortis"
+  ],
+  "weak": [
+   "Gale",
+   "Shelly",
+   "Nita"
+  ],
+  "lane": "side",
+  "note": "킥-슈퍼-발차기 콤보로 한 명 처치",
+  "src": "https://brawlstars.fandom.com/wiki/Fang | https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-april-2026/ | https://gamewith.net/brawl-stars/48081 | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000054"
+ },
+ {
+  "en": "Eve",
+  "ko": "이브",
+  "rarity": "신화",
+  "class": "대미지 딜러",
+  "hp": 5800,
+  "speed": 720,
+  "range": 9.33,
+  "atk": "알 3개 연사, 점점 커짐",
+  "sup": "알이 부화해 독 해츨링 4마리",
+  "gad": [
+   [
+    "Gotta Go!",
+    "앞으로 도약, 해츨링 남김"
+   ],
+   [
+    "Motherly Love",
+    "해츨링이 아군을 회복"
+   ]
+  ],
+  "sp": [
+   [
+    "Unnatural Order",
+    "큰 알부터 발사"
+   ],
+   [
+    "Happy Surprise",
+    "큰 알 적중 시 해츨링, 슈퍼 5%"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "dps",
+   "spawn",
+   "long",
+   "mobility"
+  ],
+  "strong": [
+   "Mortis",
+   "Piper",
+   "Byron"
+  ],
+  "weak": [
+   "Fang",
+   "Edgar",
+   "Emz"
+  ],
+  "lane": "mid",
+  "note": "호수를 건너 안전한 거리 유지",
+  "src": "https://brawlstars.fandom.com/wiki/Eve | https://gamewith.net/brawl-stars/48080 | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000056 | https://supercell.com/en/games/brawlstars/ko/blog/release-notes/2026년-8월-릴리스-노트"
+ },
+ {
+  "en": "Janet",
+  "ko": "자넷",
+  "rarity": "신화",
+  "class": "저격수",
+  "hp": 6400,
+  "speed": 720,
+  "range": null,
+  "atk": "충전할수록 좁고 먼 관통파",
+  "sup": "7초 비행하며 폭탄 투하",
+  "gad": [
+   [
+    "강력한 베이스",
+    "스피커가 범위 내 적에게 지속 피해"
+   ],
+   [
+    "Backstage Pass",
+    "다음 공격 반동으로 뒤로 이동"
+   ]
+  ],
+  "sp": [
+   [
+    "Stage View",
+    "비행 중 부쉬 속 적 공개"
+   ],
+   [
+    "Vocal Warm Up",
+    "충전 속도 30% 증가"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "marksman",
+   "pierce",
+   "mobility",
+   "antiheal",
+   "mid"
+  ],
+  "strong": [
+   "R-T",
+   "Mortis",
+   "Leon"
+  ],
+  "weak": [
+   "Belle",
+   "Melodie",
+   "Piper"
+  ],
+  "lane": "any",
+  "note": "사거리 미확인(null), 슈퍼는 도주용",
+  "src": "https://brawlstars.fandom.com/wiki/Janet | https://gamewith.net/brawl-stars/48079 | https://brawlify.com/brawlers/detail/Janet | https://namu.wiki/w/자넷(브롤스타즈)"
+ },
+ {
+  "en": "Bonnie",
+  "ko": "보니",
+  "rarity": "영웅",
+  "class": "저격수",
+  "hp": 9600,
+  "speed": null,
+  "range": 9.0,
+  "atk": "대포: 장거리 이빨 / 변신: 근거리 산탄",
+  "sup": "대포에서 점프 변신, 복귀 시 회복",
+  "gad": [
+   [
+    "Sugar Rush",
+    "대포 이속·재장전 +30%, 5초"
+   ],
+   [
+    "Crash Test",
+    "전방 돌진, 적 밀치고 피해"
+   ]
+  ],
+  "sp": [
+   [
+    "Black Powder",
+    "슈퍼 사거리 +36%"
+   ],
+   [
+    "Wisdom Tooth",
+    "이빨이 4갈래로 갈라져 추가 피해"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "marksman",
+   "burst",
+   "mobility",
+   "long",
+   "wallbreak"
+  ],
+  "strong": [
+   "Colt",
+   "Tick",
+   "Amber"
+  ],
+  "weak": [
+   "Edgar",
+   "Shelly",
+   "Gene"
+  ],
+  "lane": "mid",
+  "note": "속도 미확인(null), hp는 대포 형태",
+  "src": "https://brawlstars.fandom.com/wiki/Bonnie | https://gamewith.net/brawl-stars/48105 | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000058"
+ },
+ {
+  "en": "Otis",
+  "ko": "오티스",
+  "rarity": "신화",
+  "class": "컨트롤러",
+  "hp": 6400,
+  "speed": 720,
+  "range": 9.0,
+  "atk": "잉크 3발 부채꼴 발사",
+  "sup": "적 묵음: 공격·슈퍼·가젯 봉인",
+  "gad": [
+   [
+    "Dormant Star",
+    "빗나간 불가사리가 지뢰처럼 대기"
+   ],
+   [
+    "Phat Splatter",
+    "다음 공격이 잉크 웅덩이 생성"
+   ]
+  ],
+  "sp": [
+   [
+    "Stencil Glue",
+    "슈퍼 지속시간 +33%"
+   ],
+   [
+    "Ink Refills",
+    "잉크 방울 3발에서 4발로"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "control",
+   "cc",
+   "mid",
+   "area"
+  ],
+  "strong": [
+   "El Primo",
+   "Bull",
+   "Mortis"
+  ],
+  "weak": [
+   "Piper",
+   "Pam",
+   "8-Bit"
+  ],
+  "lane": "any",
+  "note": "슈퍼로 돌진하는 적을 봉인",
+  "src": "https://brawlstars.fandom.com/wiki/Otis | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000057 | https://brawlify.com/brawlers/detail/Otis"
+ },
+ {
+  "en": "Sam",
+  "ko": "샘",
+  "rarity": "영웅",
+  "class": "암살자",
+  "hp": 10800,
+  "speed": 770,
+  "range": 3.0,
+  "atk": "근거리 관통 펀치 2연타",
+  "sup": "너클버스터 투척 후 회수",
+  "gad": [
+   [
+    "Magnetic Field",
+    "땅의 너클버스터로 적 끌어당김"
+   ],
+   [
+    "Pulse Repellent",
+    "다음 슈퍼 착지 시 넉백 펄스"
+   ]
+  ],
+  "sp": [
+   [
+    "Hearty Recovery",
+    "회수 시 잃은 체력 20% 회복"
+   ],
+   [
+    "Remote Recharge",
+    "근처 적이 슈퍼 충전"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "assassin",
+   "short",
+   "pierce",
+   "mobility",
+   "burst"
+  ],
+  "strong": [
+   "Mandy",
+   "Gray",
+   "Piper"
+  ],
+  "weak": [
+   "Gale",
+   "Shelly",
+   "Frank"
+  ],
+  "lane": "side",
+  "note": "장갑 회수 전 탄을 모두 장전",
+  "src": "https://brawlstars.fandom.com/wiki/Sam | https://brawlify.com/brawlers/detail/Sam | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000059"
+ },
+ {
+  "en": "Gus",
+  "ko": "거스",
+  "rarity": "초희귀",
+  "class": "서포터",
+  "hp": 6400,
+  "speed": 720,
+  "range": 9.33,
+  "atk": "풍선 발사, 적중 시 유령 드랍",
+  "sup": "스푸키 보호막, 주변 적 넉백",
+  "gad": [
+   [
+    "유령 팡팡",
+    "미수집 유령 폭발, 주변 피해"
+   ],
+   [
+    "넉백 유령",
+    "유령을 던져 적 밀침"
+   ]
+  ],
+  "sp": [
+   [
+    "회복 뿜뿜",
+    "유령 회복량 +75%"
+   ],
+   [
+    "든든한 내 친구",
+    "스푸키가 아군 피해 +25%, 5초"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "support",
+   "heal",
+   "shield",
+   "long"
+  ],
+  "strong": [
+   "Gray",
+   "Mandy"
+  ],
+  "weak": [
+   "Piper",
+   "Max",
+   "Buster"
+  ],
+  "lane": "any",
+  "note": "유령 모아 아군 보호막·회복",
+  "src": "https://gamewith.net/brawl-stars/48118 | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000060 | https://supercell.com/en/games/brawlstars/ko/blog/release-notes/2026년-8월-릴리스-노트"
+ },
+ {
+  "en": "Buster",
+  "ko": "버스터",
+  "rarity": "신화",
+  "class": "탱커",
+  "hp": 10400,
+  "speed": 770,
+  "range": 5.33,
+  "atk": "관통 원뿔 빛, 근거리일수록 강함",
+  "sup": "투사체 반사 방벽 3초",
+  "gad": [
+   [
+    "유틸리티 벨트",
+    "주변 아군과 자신 600 회복"
+   ],
+   [
+    "Slo-Mo Replay",
+    "다음 공격이 적을 끌어당김"
+   ]
+  ],
+  "sp": [
+   [
+    "블록버스터",
+    "범위 내 아군당 피해 +20%"
+   ],
+   [
+    "Kevlar Vest",
+    "방벽 중 피해 -10%, CC 면역"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "tank",
+   "mid",
+   "pierce",
+   "shield",
+   "heal"
+  ],
+  "strong": [
+   "Colt",
+   "Rico",
+   "Mandy",
+   "Gus"
+  ],
+  "weak": [
+   "Buzz",
+   "Gale",
+   "Rosa"
+  ],
+  "lane": "mid",
+  "note": "방벽을 날아오는 탄 쪽으로 향하기",
+  "src": "https://brawlstars.fandom.com/wiki/Buster | https://gamewith.net/brawl-stars/48077 | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000061 | https://supercell.com/en/games/brawlstars/ko/blog/release-notes/2026년-8월-릴리스-노트"
+ },
+ {
+  "en": "Chester",
+  "ko": "체스터",
+  "rarity": "전설",
+  "class": "대미지 딜러",
+  "hp": 7600,
+  "speed": 770,
+  "range": 8.33,
+  "atk": "종 1→2→3→4발 순환 발사",
+  "sup": "랜덤 슈퍼 5종 중 하나",
+  "gad": [
+   [
+    "Spicy Dice",
+    "다른 랜덤 슈퍼로 교체"
+   ],
+   [
+    "젤리 빈",
+    "랜덤 버프 5초"
+   ]
+  ],
+  "sp": [
+   [
+    "Single Bell 'O' Mania",
+    "첫 공격 피해 2배"
+   ],
+   [
+    "Sneak Peek",
+    "다음 슈퍼 미리 확인"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "dps",
+   "burst",
+   "mid",
+   "cc"
+  ],
+  "strong": [
+   "Bull",
+   "Darryl",
+   "Mortis"
+  ],
+  "weak": [
+   "Piper",
+   "Spike",
+   "Bea"
+  ],
+  "lane": "any",
+  "note": "근접할수록 3~4발 단계가 강력",
+  "src": "https://brawlstars.fandom.com/wiki/Chester | https://gamewith.net/brawl-stars/48062 | https://supercell.com/en/games/brawlstars/ko/blog/release-notes/2026년-2월-릴리스-노트 | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000062"
+ },
+ {
+  "en": "Gray",
+  "ko": "그레이",
+  "rarity": "신화",
+  "class": "서포터",
+  "hp": 6600,
+  "speed": 720,
+  "range": 9.0,
+  "atk": "긴 사거리 손가락 총, 느린 탄",
+  "sup": "문 2개 설치, 아군 순간이동",
+  "gad": [
+   [
+    "Walking Cane",
+    "장애물 관통, 적 끌어당김"
+   ],
+   [
+    "그랜드 피아노",
+    "착탄 지점에 피아노 낙하"
+   ]
+  ],
+  "sp": [
+   [
+    "Fake Injury",
+    "풀피일 때 받는 피해 -50%"
+   ],
+   [
+    "New Perspective",
+    "문 사용 시 최대체력 20% 회복"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "support",
+   "control",
+   "mobility",
+   "long"
+  ],
+  "strong": [
+   "Sprout",
+   "Grom",
+   "Dynamike"
+  ],
+  "weak": [
+   "Frank",
+   "Mr. P",
+   "Max",
+   "Bo"
+  ],
+  "lane": "any",
+  "note": "문을 적 눈에 안 띄게 설치",
+  "src": "https://brawlstars.fandom.com/wiki/Gray | https://gamewith.net/brawl-stars/48076 | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000064 | https://powerleagueprodigy.com/gray"
+ },
+ {
+  "en": "Mandy",
+  "ko": "맨디",
+  "rarity": "영웅",
+  "class": "저격수",
+  "hp": 5600,
+  "speed": 720,
+  "range": 9.0,
+  "atk": "장거리 사탕, 정지 시 사거리 +3",
+  "sup": "0.75초 후 초장거리 관통 광선",
+  "gad": [
+   [
+    "Caramelize",
+    "다음 공격이 2.5초 둔화"
+   ],
+   [
+    "Cookie Crumbs",
+    "다음 공격이 적·벽 관통"
+   ]
+  ],
+  "sp": [
+   [
+    "In My Sights",
+    "집중 중 탄속 +15%"
+   ],
+   [
+    "알사탕",
+    "집중 중 받는 피해 -50%"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "marksman",
+   "long",
+   "pierce",
+   "burst"
+  ],
+  "strong": [
+   "Colt",
+   "Brock",
+   "Rico"
+  ],
+  "weak": [
+   "Edgar",
+   "Mortis",
+   "Barley",
+   "Nani"
+  ],
+  "lane": "mid",
+  "note": "멈춰서 집중 충전 후 저격",
+  "src": "https://brawlstars.fandom.com/wiki/Mandy | https://gamewith.net/brawl-stars/48098 | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000063 | https://trophycoach.com/brawl-stars/guides/brawl-stars-balance-changes-june-2026"
+ },
+ {
+  "en": "R-T",
+  "ko": "R-T",
+  "rarity": "신화",
+  "class": "대미지 딜러",
+  "hp": 7800,
+  "speed": 720,
+  "range": 10.0,
+  "atk": "장거리 표식탄, 표식 적중 시 추가딜",
+  "sup": "머리·다리 분리, 근거리 표식 공격",
+  "gad": [
+   [
+    "Out of Line",
+    "슈퍼 즉시 충전"
+   ],
+   [
+    "Hacks!",
+    "표식 전부 즉시 발동"
+   ]
+  ],
+  "sp": [
+   [
+    "Quick Maths",
+    "표식 지속 +3초"
+   ],
+   [
+    "녹화 모드",
+    "변신 중 받는 피해 -25%"
+   ]
+  ],
+  "hyper": true,
+  "tags": [
+   "dps",
+   "long",
+   "burst",
+   "mobility"
+  ],
+  "strong": [
+   "Mortis",
+   "Fang",
+   "Edgar"
+  ],
+  "weak": [
+   "Janet",
+   "Emz",
+   "Penny",
+   "Jessie"
+  ],
+  "lane": "mid",
+  "note": "슈퍼는 체력 높을 때만 사용",
+  "src": "https://brawlstars.fandom.com/wiki/R-T | https://www.brawlinsights.com/en/tools/brawler_guide/stats/16000066 | https://timesaver.gg/blog/brawl-stars-hypercharge-tier-list-september-2026 | https://supercell.com/en/games/brawlstars/ko/blog/release-notes/2026년-8월-릴리스-노트"
+ }
+]

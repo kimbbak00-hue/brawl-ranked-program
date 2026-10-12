@@ -1,0 +1,940 @@
+{
+ "season": "Ranked Season 49 (2026-09-17 ~ 2026-10-15 예정, 핫 존 피처드 모드 6맵 + 나머지 5모드 각 4맵 = 26맵). 시즌 번호·기간은 trophycoach 기준이며 Supercell 공식 공지로는 미확인. 맵 풀은 brawlbetter 랭크 로테이션(2026-10-08~11 갱신)과 교차 확인.",
+ "asOf": "2026-10-11",
+ "sources": [
+  "https://trophycoach.com/brawl-stars/guides/brawl-stars-ranked-mode-guide (Season 49 맵 풀·기간)",
+  "https://www.brawlbetter.com/ranked-maps (현재 랭크 로테이션 26맵, 9/16 밸런스 이후 데이터)",
+  "https://www.brawlbetter.com/maps/<map> (맵별 랭크 상위권 21일 승률·레이아웃 라벨, best 출처)",
+  "https://www.noff.gg/brawl-stars/map/<map> (상위 200명 기준 보조 데이터)",
+  "https://brawlify.com/maps , https://api.brawlapi.com/v1/maps (brawlifyId)",
+  "https://namu.wiki/w/분류:브롤스타즈/<모드> 맵 및 브롤스타즈/맵/<맵> 문서 (한국어 맵 이름·레이아웃)",
+  "https://brawlstars.fandom.com/wiki/Quick_Travel (빠른 이동 레이아웃)",
+  "참고: midBest/sideBest는 best 목록을 브롤러 역할(탱커/서포터/컨트롤러→미드, 저격/암살→사이드)로 나눈 추정치이며 출처 데이터가 아님"
+ ],
+ "modes": [
+  {
+   "en": "Gem Grab",
+   "ko": "젬 그랩",
+   "lanes": "미드 1명이 젬 운반·광산 장악, 사이드 2명이 라인 압박과 견제",
+   "maps": [
+    {
+     "en": "Hard Rock Mine",
+     "ko": "암석 광산",
+     "brawlifyId": 15000007,
+     "traits": [
+      "open",
+      "walls many",
+      "bushes many"
+     ],
+     "desc": "작은 벽 다수, 양쪽 긴 부쉬 라인",
+     "best": [
+      "Shade",
+      "Amber",
+      "Rico",
+      "Maisie",
+      "Pierce",
+      "Stu",
+      "Wendy",
+      "El Primo",
+      "Gus",
+      "Colette"
+     ],
+     "midBest": [
+      "Gus",
+      "Amber",
+      "Wendy",
+      "El Primo",
+      "Maisie"
+     ],
+     "sideBest": [
+      "Rico",
+      "Shade",
+      "Stu",
+      "Pierce",
+      "Colette"
+     ]
+    },
+    {
+     "en": "Double Swoosh",
+     "ko": "이중 곡선",
+     "brawlifyId": 15000115,
+     "traits": [
+      "mixed",
+      "bushes many"
+     ],
+     "desc": "중앙 젬 광산을 부쉬가 둘러싼 구조",
+     "best": [
+      "Surge",
+      "Tara",
+      "Wendy",
+      "Ash",
+      "Bo",
+      "El Primo",
+      "Moe",
+      "Mortis",
+      "Shade"
+     ],
+     "midBest": [
+      "Tara",
+      "Bo",
+      "Ash",
+      "El Primo"
+     ],
+     "sideBest": [
+      "Surge",
+      "Wendy",
+      "Moe",
+      "Shade",
+      "Mortis"
+     ]
+    },
+    {
+     "en": "Gem Fort",
+     "ko": "얼음 요새",
+     "brawlifyId": 15000010,
+     "traits": [
+      "closed",
+      "walls many",
+      "bushes many"
+     ],
+     "desc": "벽·부쉬 밀집 중앙, 양옆 긴 부쉬 라인",
+     "best": [
+      "Shade",
+      "Maisie",
+      "Emz",
+      "Wendy",
+      "Gus",
+      "Max",
+      "Amber",
+      "Stu",
+      "Tara"
+     ],
+     "midBest": [
+      "Emz",
+      "Gus",
+      "Max",
+      "Tara"
+     ],
+     "sideBest": [
+      "Shade",
+      "Maisie",
+      "Wendy",
+      "Stu",
+      "Amber"
+     ]
+    },
+    {
+     "en": "Undermine",
+     "ko": "흔들 광산",
+     "brawlifyId": 15000011,
+     "traits": [
+      "mixed",
+      "bushes many",
+      "lanes 3"
+     ],
+     "desc": "좁은 개방 중앙, 양옆 큰 부쉬 매복 지대",
+     "best": [
+      "Amber",
+      "Shade",
+      "Gus",
+      "Starr Nova",
+      "El Primo",
+      "Colette",
+      "Tara",
+      "Ash",
+      "Rico"
+     ],
+     "midBest": [
+      "Gus",
+      "Tara",
+      "El Primo",
+      "Ash"
+     ],
+     "sideBest": [
+      "Amber",
+      "Shade",
+      "Colette",
+      "Rico",
+      "Starr Nova"
+     ]
+    }
+   ]
+  },
+  {
+   "en": "Brawl Ball",
+   "ko": "브롤 볼",
+   "lanes": "미드가 공 쟁탈·벽 파괴, 사이드가 라인 압박 후 골문 돌파",
+   "maps": [
+    {
+     "en": "Center Stage",
+     "ko": "센터 스테이지",
+     "brawlifyId": 15000132,
+     "traits": [
+      "mixed",
+      "bushes many"
+     ],
+     "desc": "부쉬 밀집, 적진 부쉬로 통하는 두 통로",
+     "best": [
+      "Amber",
+      "Emz",
+      "Shade",
+      "Mortis",
+      "Wendy",
+      "Maisie",
+      "El Primo",
+      "Gus",
+      "Ash"
+     ],
+     "midBest": [
+      "Emz",
+      "Gus",
+      "El Primo",
+      "Ash"
+     ],
+     "sideBest": [
+      "Amber",
+      "Shade",
+      "Mortis",
+      "Wendy",
+      "Maisie"
+     ]
+    },
+    {
+     "en": "Sneaky Fields",
+     "ko": "스니키 필드",
+     "brawlifyId": 15000050,
+     "traits": [
+      "open",
+      "walls many",
+      "bushes many"
+     ],
+     "desc": "중앙·양옆 큰 부쉬, 중앙 부쉬 장악이 핵심",
+     "best": [
+      "Amber",
+      "Shade",
+      "Sirius",
+      "Rico",
+      "El Primo",
+      "Otis",
+      "Ruffs",
+      "Pierce"
+     ],
+     "midBest": [
+      "Amber",
+      "El Primo",
+      "Ruffs",
+      "Otis"
+     ],
+     "sideBest": [
+      "Shade",
+      "Sirius",
+      "Rico",
+      "Pierce"
+     ]
+    },
+    {
+     "en": "Triple Dribble",
+     "ko": "트리플 드리블",
+     "brawlifyId": 15000025,
+     "traits": [
+      "walls many"
+     ],
+     "desc": "벽이 많아 투척·암살자 강세",
+     "best": [
+      "Shade",
+      "Amber",
+      "Maisie",
+      "Max",
+      "El Primo",
+      "Wendy",
+      "Lumi",
+      "Gus",
+      "Rico"
+     ],
+     "midBest": [
+      "Max",
+      "El Primo",
+      "Gus",
+      "Maisie"
+     ],
+     "sideBest": [
+      "Shade",
+      "Amber",
+      "Wendy",
+      "Lumi",
+      "Rico"
+     ]
+    },
+    {
+     "en": "Pinball Dreams",
+     "ko": "핀볼 드림",
+     "brawlifyId": 15000118,
+     "traits": [
+      "closed",
+      "walls many",
+      "bushes many"
+     ],
+     "desc": "벽·부쉬 균형형, 골문 앞 벽 뱅크슛 가능",
+     "best": [
+      "Shade",
+      "Willow",
+      "Amber",
+      "Ash",
+      "Wendy",
+      "Sirius",
+      "Maisie",
+      "Max",
+      "Gus"
+     ],
+     "midBest": [
+      "Willow",
+      "Ash",
+      "Max",
+      "Gus"
+     ],
+     "sideBest": [
+      "Shade",
+      "Amber",
+      "Wendy",
+      "Sirius",
+      "Maisie"
+     ]
+    }
+   ]
+  },
+  {
+   "en": "Heist",
+   "ko": "하이스트",
+   "lanes": "미드는 수비·중앙 장악, 사이드는 라인 뚫고 금고 딜",
+   "maps": [
+    {
+     "en": "Safe Zone",
+     "ko": "안전지대",
+     "brawlifyId": 15000019,
+     "traits": [
+      "open"
+     ],
+     "desc": "개활지 맵, 원거리 금고 딜 유리",
+     "best": [
+      "Nori",
+      "Colt",
+      "Wendy",
+      "Penny",
+      "Shade",
+      "Carl",
+      "Kaze",
+      "Amber"
+     ],
+     "midBest": [
+      "Penny",
+      "Wendy",
+      "Nori",
+      "Carl"
+     ],
+     "sideBest": [
+      "Colt",
+      "Shade",
+      "Kaze",
+      "Amber"
+     ]
+    },
+    {
+     "en": "Kaboom Canyon",
+     "ko": "우당탕 협곡",
+     "brawlifyId": 15000018,
+     "traits": [
+      "closed",
+      "bushes many"
+     ],
+     "desc": "중앙 부쉬 장악 핵심, 강·벽으로 좌우 분리",
+     "best": [
+      "Shade",
+      "Amber",
+      "Wendy",
+      "Melodie",
+      "Nori",
+      "Colette",
+      "8-Bit",
+      "Gus",
+      "Colt"
+     ],
+     "midBest": [
+      "Gus",
+      "Wendy",
+      "Amber",
+      "Nori"
+     ],
+     "sideBest": [
+      "Colt",
+      "8-Bit",
+      "Colette",
+      "Melodie",
+      "Shade"
+     ]
+    },
+    {
+     "en": "Hot Potato",
+     "ko": "뜨거운 감자",
+     "brawlifyId": 15000053,
+     "traits": [
+      "closed"
+     ],
+     "desc": "닫힌 구조, 근접·돌격 브롤러 강세",
+     "best": [
+      "Shade",
+      "El Primo",
+      "Bibi",
+      "Cordelius",
+      "Emz",
+      "Kaze",
+      "Rico",
+      "Colette",
+      "Melodie"
+     ],
+     "midBest": [
+      "Emz",
+      "El Primo",
+      "Bibi"
+     ],
+     "sideBest": [
+      "Rico",
+      "Colette",
+      "Shade",
+      "Kaze",
+      "Melodie",
+      "Cordelius"
+     ]
+    },
+    {
+     "en": "Bridge Too Far",
+     "ko": "머나먼 다리",
+     "brawlifyId": 15000072,
+     "traits": [
+      "lanes 3"
+     ],
+     "desc": "물로 나뉜 3라인, 좁은 통로",
+     "best": [
+      "Wendy",
+      "Amber",
+      "8-Bit",
+      "Nori",
+      "Colt",
+      "Angelo",
+      "Shade",
+      "Nani",
+      "Melodie"
+     ],
+     "midBest": [
+      "Wendy",
+      "Amber",
+      "Nori"
+     ],
+     "sideBest": [
+      "8-Bit",
+      "Colt",
+      "Angelo",
+      "Nani",
+      "Shade",
+      "Melodie"
+     ]
+    }
+   ]
+  },
+  {
+   "en": "Bounty",
+   "ko": "바운티",
+   "lanes": "미드는 시야·견제 유지, 사이드는 저격으로 별 획득·킬 관리",
+   "maps": [
+    {
+     "en": "Dry Season",
+     "ko": "햇빛은 쨍쨍",
+     "brawlifyId": 15000083,
+     "traits": [],
+     "desc": "페니·스프라우트 등 벽 너머 견제 강세",
+     "best": [
+      "Penny",
+      "Sprout",
+      "Mortis",
+      "Wendy",
+      "Shade",
+      "Gus",
+      "Max",
+      "Gray",
+      "Piper"
+     ],
+     "midBest": [
+      "Penny",
+      "Sprout",
+      "Gus",
+      "Max",
+      "Gray"
+     ],
+     "sideBest": [
+      "Piper",
+      "Mortis",
+      "Wendy",
+      "Shade"
+     ]
+    },
+    {
+     "en": "Hideout",
+     "ko": "은신처",
+     "brawlifyId": 15000022,
+     "traits": [
+      "open"
+     ],
+     "desc": "대체로 개방, 중앙 양옆에 벽·부쉬",
+     "best": [
+      "Amber",
+      "Wendy",
+      "Gus",
+      "Piper",
+      "Max",
+      "Gray",
+      "Bea",
+      "Kaze"
+     ],
+     "midBest": [
+      "Gus",
+      "Max",
+      "Gray",
+      "Amber"
+     ],
+     "sideBest": [
+      "Piper",
+      "Bea",
+      "Wendy",
+      "Kaze"
+     ]
+    },
+    {
+     "en": "Shooting Star",
+     "ko": "별내림 계곡",
+     "brawlifyId": 15000005,
+     "traits": [
+      "open",
+      "lanes 3"
+     ],
+     "desc": "개방형 저격 맵, 중앙 벽·강·부쉬",
+     "best": [
+      "Wendy",
+      "Amber",
+      "Sprout",
+      "Pierce",
+      "Mina",
+      "Nani",
+      "Max",
+      "Angelo",
+      "Gus",
+      "Brock"
+     ],
+     "midBest": [
+      "Sprout",
+      "Max",
+      "Gus",
+      "Amber"
+     ],
+     "sideBest": [
+      "Nani",
+      "Angelo",
+      "Brock",
+      "Pierce",
+      "Wendy",
+      "Mina"
+     ]
+    },
+    {
+     "en": "Layer Cake",
+     "ko": "레이어 케이크",
+     "brawlifyId": 15000082,
+     "traits": [
+      "mixed",
+      "walls many",
+      "bushes many"
+     ],
+     "desc": "4겹 벽과 부쉬, 투척·암살자 강세",
+     "best": [
+      "Amber",
+      "Penny",
+      "Mortis",
+      "Wendy",
+      "Colette",
+      "Brock",
+      "Kaze",
+      "Lumi",
+      "Emz",
+      "Shade"
+     ],
+     "midBest": [
+      "Penny",
+      "Emz",
+      "Amber",
+      "Colette"
+     ],
+     "sideBest": [
+      "Brock",
+      "Mortis",
+      "Wendy",
+      "Shade",
+      "Kaze"
+     ]
+    }
+   ]
+  },
+  {
+   "en": "Knockout",
+   "ko": "녹아웃",
+   "lanes": "미드가 중앙 압박·양쪽 지원, 사이드는 원거리 견제로 킬 확보",
+   "maps": [
+    {
+     "en": "Flaring Phoenix",
+     "ko": "타오르는 불사조",
+     "brawlifyId": 15000440,
+     "traits": [
+      "mixed",
+      "bushes many",
+      "lanes 3"
+     ],
+     "desc": "강과 벽으로 나뉜 3라인, 부쉬 4구역",
+     "best": [
+      "Pearl",
+      "Brock",
+      "Gus",
+      "Wendy",
+      "Edgar",
+      "Colette",
+      "Tick",
+      "El Primo",
+      "Ruffs"
+     ],
+     "midBest": [
+      "Gus",
+      "Pearl",
+      "Tick",
+      "Ruffs"
+     ],
+     "sideBest": [
+      "Brock",
+      "Wendy",
+      "Edgar",
+      "Colette"
+     ]
+    },
+    {
+     "en": "Out in the Open",
+     "ko": "오픈 필드",
+     "brawlifyId": 15000548,
+     "traits": [
+      "open",
+      "walls many"
+     ],
+     "desc": "중앙 개활지, 원거리 저격수 유리",
+     "best": [
+      "Piper",
+      "Brock",
+      "Rico",
+      "Wendy",
+      "Pearl",
+      "Max",
+      "Angelo",
+      "8-Bit",
+      "Eve"
+     ],
+     "midBest": [
+      "Max",
+      "Pearl",
+      "Eve",
+      "Wendy"
+     ],
+     "sideBest": [
+      "Piper",
+      "Brock",
+      "Rico",
+      "Angelo",
+      "8-Bit"
+     ]
+    },
+    {
+     "en": "Belle's Rock",
+     "ko": "벨스 락",
+     "brawlifyId": 15000368,
+     "traits": [
+      "open",
+      "walls many"
+     ],
+     "desc": "중앙 십자 통로, 초반 투척 강세",
+     "best": [
+      "Brock",
+      "Colette",
+      "Gus",
+      "Rico",
+      "Tick",
+      "Sprout",
+      "Shade",
+      "Pierce",
+      "Pearl"
+     ],
+     "midBest": [
+      "Gus",
+      "Tick",
+      "Sprout",
+      "Pearl"
+     ],
+     "sideBest": [
+      "Brock",
+      "Rico",
+      "Colette",
+      "Pierce",
+      "Shade"
+     ]
+    },
+    {
+     "en": "New Horizons",
+     "ko": "새로운 지평선",
+     "brawlifyId": 15000703,
+     "traits": [
+      "walls many",
+      "lanes 3"
+     ],
+     "desc": "중앙 사각 벽 구조, 3라인 중 중앙 핵심",
+     "best": [
+      "Sprout",
+      "Shade",
+      "Colt",
+      "Brock",
+      "Wendy",
+      "Amber",
+      "Leon",
+      "Rico",
+      "Mina",
+      "Piper"
+     ],
+     "midBest": [
+      "Sprout",
+      "Shade",
+      "Amber",
+      "Wendy"
+     ],
+     "sideBest": [
+      "Colt",
+      "Brock",
+      "Piper",
+      "Rico"
+     ]
+    }
+   ]
+  },
+  {
+   "en": "Hot Zone",
+   "ko": "핫 존",
+   "lanes": "미드는 존 점령·버티기, 사이드는 측면 견제와 진입 차단",
+   "maps": [
+    {
+     "en": "Open Business",
+     "ko": "신장개업",
+     "brawlifyId": 15000292,
+     "traits": [
+      "walls few",
+      "center"
+     ],
+     "desc": "중앙 존 1개, 주변 작은 벽 4개",
+     "best": [
+      "Amber",
+      "Lou",
+      "Wendy",
+      "Sirius",
+      "Barley",
+      "Emz",
+      "Stu",
+      "Griff",
+      "Gray",
+      "Kenji"
+     ],
+     "midBest": [
+      "Lou",
+      "Emz",
+      "Barley",
+      "Gray",
+      "Amber"
+     ],
+     "sideBest": [
+      "Griff",
+      "Stu",
+      "Sirius",
+      "Wendy",
+      "Kenji"
+     ]
+    },
+    {
+     "en": "Dueling Beetles",
+     "ko": "곤충 싸움",
+     "brawlifyId": 15000306,
+     "traits": [
+      "mixed",
+      "walls many",
+      "center"
+     ],
+     "desc": "L자 벽 다수, 중앙 개방·존 앞뒤 부쉬",
+     "best": [
+      "Amber",
+      "Poco",
+      "Barley",
+      "Gus",
+      "Shade",
+      "Edgar",
+      "Ash",
+      "Max",
+      "Emz"
+     ],
+     "midBest": [
+      "Poco",
+      "Barley",
+      "Gus",
+      "Ash",
+      "Emz"
+     ],
+     "sideBest": [
+      "Shade",
+      "Edgar",
+      "Amber",
+      "Max"
+     ]
+    },
+    {
+     "en": "Quick Travel",
+     "ko": "빠른 이동",
+     "brawlifyId": null,
+     "traits": [
+      "bushes many"
+     ],
+     "desc": "존 2개, S자 부쉬와 점프 패드",
+     "best": [
+      "Nita",
+      "Shade",
+      "Stu",
+      "Emz",
+      "Ash",
+      "Wendy",
+      "Gus",
+      "Tara",
+      "Meeple"
+     ],
+     "midBest": [
+      "Emz",
+      "Ash",
+      "Gus",
+      "Nita",
+      "Tara"
+     ],
+     "sideBest": [
+      "Shade",
+      "Stu",
+      "Wendy",
+      "Meeple"
+     ]
+    },
+    {
+     "en": "In the Liminal",
+     "ko": null,
+     "brawlifyId": 15001023,
+     "traits": [],
+     "desc": "앰버·웬디 등 지속딜 파이터 강세",
+     "best": [
+      "Amber",
+      "Wendy",
+      "El Primo",
+      "Emz",
+      "Ash",
+      "Gus",
+      "Mortis",
+      "Colette",
+      "Bea"
+     ],
+     "midBest": [
+      "Emz",
+      "Ash",
+      "Gus",
+      "El Primo"
+     ],
+     "sideBest": [
+      "Amber",
+      "Wendy",
+      "Mortis",
+      "Colette",
+      "Bea"
+     ]
+    },
+    {
+     "en": "Parallel Plays",
+     "ko": "평행선",
+     "brawlifyId": 15000293,
+     "traits": [
+      "closed",
+      "walls many",
+      "bushes many"
+     ],
+     "desc": "멀리 떨어진 존 2개, 공수 분담 필수",
+     "best": [
+      "Shade",
+      "Nori",
+      "Amber",
+      "Sirius",
+      "Juju",
+      "Ash",
+      "Mortis",
+      "Wendy",
+      "Colette",
+      "Gus"
+     ],
+     "midBest": [
+      "Ash",
+      "Gus",
+      "Juju",
+      "Nori"
+     ],
+     "sideBest": [
+      "Shade",
+      "Mortis",
+      "Sirius",
+      "Amber"
+     ]
+    },
+    {
+     "en": "Ring of Fire",
+     "ko": "불의 고리",
+     "brawlifyId": 15000300,
+     "traits": [
+      "mixed",
+      "bushes many"
+     ],
+     "desc": "개활지+부쉬, 암살자도 활약",
+     "best": [
+      "Stu",
+      "Mortis",
+      "Amber",
+      "Wendy",
+      "Emz",
+      "Gus",
+      "Gray",
+      "Meg",
+      "Poco",
+      "Finx"
+     ],
+     "midBest": [
+      "Emz",
+      "Gus",
+      "Meg",
+      "Poco",
+      "Gray"
+     ],
+     "sideBest": [
+      "Stu",
+      "Mortis",
+      "Amber",
+      "Wendy"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+name: Build APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-apk
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: android-actions/setup-android@v3
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.7'
+
+      - name: Build web bundle
+        run: python3 tools/build_web.py
+
+      - name: Build APK
+        run: gradle :app:assembleRelease --no-daemon --stacktrace
+
+      - name: Collect APK
+        run: |
+          cp app/build/outputs/apk/release/app-release.apk brawl-pickboard.apk
+          ls -la brawl-pickboard.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: brawl-pickboard-apk
+          path: brawl-pickboard.apk
+
+      - name: Publish to "latest" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete latest -y --cleanup-tag || true
+          gh release create latest brawl-pickboard.apk \
+            --title "브롤 픽보드 (최신, 빌드 ${{ github.run_number }})" \
+            --notes "폰에서 brawl-pickboard.apk 를 받아 설치하세요. 커밋 ${{ github.sha }}" \
+            --target ${{ github.sha }} --latest

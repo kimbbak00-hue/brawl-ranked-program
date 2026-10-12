@@ -1,0 +1,42 @@
+plugins {
+    id 'com.android.application'
+}
+
+def runNo = (System.getenv('GITHUB_RUN_NUMBER') ?: '1') as int
+
+android {
+    namespace 'com.eipi10.pickboard'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.eipi10.pickboard'
+        minSdk 26
+        targetSdk 34
+        versionCode runNo
+        versionName "1.0.${runNo}"
+    }
+
+    signingConfigs {
+        shared {
+            storeFile file('../keystore/pickboard.jks')
+            storePassword 'pickboard'
+            keyAlias 'pickboard'
+            keyPassword 'pickboard'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.shared
+        }
+        debug {
+            signingConfig signingConfigs.shared
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
